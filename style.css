@@ -1,0 +1,19 @@
+@import url('./layout.css');
+body > nav ul {
+    display: flex;
+    justify-content: space-around;
+    background: rgba(95, 95, 185, 0.451);
+}
+
+body > nav li {
+    padding: 1em;
+}
+
+body > nav a {
+    text-decoration: none;
+    color: white;
+}
+
+body > nav a:hover {
+   color: white;
+}

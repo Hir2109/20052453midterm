@@ -1,0 +1,67 @@
+@import url('./layout.css');
+body > nav ul {
+    display: flex;
+    justify-content: space-around;
+    background: #34495e;
+}
+
+body > nav li {
+    padding: 1em;
+}
+
+body > nav a {
+    text-decoration: none;
+    color: white;
+}
+
+body > nav a:hover {
+   color: white;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main section{
+    width: 250px;
+    height: 350px;
+    padding: 1em;
+    margin-left: 25px;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    border: 1px;
+    border-style: solid;
+}
+
+aside {
+    width: 250px;
+    padding: 50px;
+    border: 1px;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+#link{
+    text-align: center;
+    height: 50px;
+    background-color: rgb(54, 52, 52);
+    color: white;
+}
+
+#link a{
+    color: white;
+}
+
+aside  img{
+    width: 280px;
+    height: 280px;
+}
+
+.price {
+    text-align: center;
+    height: 50px;   
+    background-color:  rgb(54, 52, 52);
+    color: white;
+}
